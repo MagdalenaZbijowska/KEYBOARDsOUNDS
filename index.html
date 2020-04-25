@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>click on keyboard!</h1>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">kick</span>
+        </div>
+    </div>
+
+    <audio src="big-clap-1.wav" data-key="65"></audio>
+    <audio src="hihat06.wav" data-key="75"></audio>
+    <audio src="basic-kick.wav" data-key="76"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
